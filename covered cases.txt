@@ -1,0 +1,72 @@
+Cases to be automated:
+    
+Smoke
+    DONE - User is able to order an item
+    
+Login
+    DONE - Login using valid credentials
+    DONE - Logout from the Logged in state
+    DONE - Locked out user is unable to login
+    DONE - Username and Password inputs are required
+    DONE - Login with invalid Password
+    DONE - Login with invalid Username
+    case sensitive password
+    username is trimmed
+    password is trimmed
+
+Inventory
+    DONE - Add item in the card from the Inventory page 
+    DONE - Remove item from the card from the Cart page
+    sort by name
+    sort by price
+    DONE - Item image is shown on Inventory page
+    item title as in DB 
+    item descr as in DB
+    item price same as in DB
+    item image navigates to the item page
+
+Item
+    item image, item title, item descr, item price same as in DB
+    add to cart
+    remove from the cart
+    back to products
+
+Cart
+    continue shopping
+    checkout multiple items
+    checkout (not visible when the card is empty)
+    quantity change
+    DONE - Remove item from the card from the Cart page
+
+Checkout information
+    Continue valid first, last, zip
+    Continue with blank first, last, zip
+    zip accepts digits only
+
+Checkout overview   
+    same items as on the cart page
+    change quantity
+    payment information
+    Shipping information
+    total
+    tax 
+    total with tax
+    cancel
+    finish button
+
+Checkout confirmation       
+    back home button
+
+Header
+    Main menu button
+        opens closes
+        items
+    Cart 
+        opens cart, 
+        shows # of items
+
+Footer
+    Social network buttons
+    Terms of use, Privacy policy buttons
+
+
